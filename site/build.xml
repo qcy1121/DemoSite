@@ -51,7 +51,7 @@
         </artifact:mvn>
     </target>
 
-    <target name="jetty-demo-jrebel" depends="start-db">
+    <target name="jetty-demo-jrebel" >
         <delete dir="war/WEB-INF/lib"/>
         <artifact:mvn mavenHome="${maven.home}" fork="true">
             <jvmarg value="-XX:MaxPermSize=256M" />
