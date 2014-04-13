@@ -155,10 +155,10 @@
             <artifactId>hsqldb</artifactId>
         </dependency>
 		-->
-        <dependency>
+      <!--   <dependency>
             <groupId>org.apache.tomcat</groupId>
             <artifactId>tomcat-jdbc</artifactId>
-        </dependency>
+        </dependency> -->
         <dependency>
             <groupId>commons-dbcp</groupId>
             <artifactId>commons-dbcp</artifactId>

@@ -273,16 +273,18 @@
                 <artifactId>testng</artifactId>
                 <version>5.9</version>
                 <type>jar</type>
-                <classifier>jdk15</classifier>
+                <classifier>jdk17</classifier>
                 <scope>test</scope>
             </dependency>
-            <dependency>
+            
+            <!-- 以下部分是为了兼容Tomcat7做准备，如果已经使用了Tomcat7的话可以不引入 -->
+           <!--  <dependency>
                 <groupId>org.apache.tomcat</groupId>
                 <artifactId>tomcat-jdbc</artifactId>
                 <version>7.0.30</version>
                 <type>jar</type>
                 <scope>compile</scope>
-            </dependency>
+            </dependency> -->
         </dependencies>
     </dependencyManagement>
     <modules>
